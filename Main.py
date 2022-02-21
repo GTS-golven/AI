@@ -37,7 +37,7 @@ while True:
         prevCircle = chosen
 
     
-    cv2.imshow('circles', blurFrame)
+    cv2.imshow('circles', frame75)
     if cv2.waitKey(1) == ord('q'):
         break
 
